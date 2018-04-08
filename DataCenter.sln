@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.ETL.Manager", "DC.ETL.Manager\DC.ETL.Manager.csproj", "{167800AC-85C4-4F77-8D39-FD74258080EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.ETL.Infrastructure", "DC.ETL.Infrastructure\DC.ETL.Infrastructure.csproj", "{B5859FF2-B448-4BFB-A52E-5C2DDF9798C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.ETL.Repository", "DC.ETL.Repository\DC.ETL.Repository.csproj", "{795FF618-E8EB-43DD-8BFB-2AAC763416C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DC.ETL.DomainCore", "DC.ETL.DomainCore", "{59660D24-E5D1-439E-81E6-CFE61AF529C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DC.ETL.Models", "DC.ETL.Models", "{B4F76208-1E9B-408C-9664-435B6D046D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DC.ETL.Models.PO", "DC.ETL.Models.PO\DC.ETL.Models.PO.csproj", "{22FB4C21-AD84-4630-84EF-492A9A58F723}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{167800AC-85C4-4F77-8D39-FD74258080EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167800AC-85C4-4F77-8D39-FD74258080EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167800AC-85C4-4F77-8D39-FD74258080EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167800AC-85C4-4F77-8D39-FD74258080EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5859FF2-B448-4BFB-A52E-5C2DDF9798C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5859FF2-B448-4BFB-A52E-5C2DDF9798C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5859FF2-B448-4BFB-A52E-5C2DDF9798C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5859FF2-B448-4BFB-A52E-5C2DDF9798C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795FF618-E8EB-43DD-8BFB-2AAC763416C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795FF618-E8EB-43DD-8BFB-2AAC763416C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795FF618-E8EB-43DD-8BFB-2AAC763416C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795FF618-E8EB-43DD-8BFB-2AAC763416C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FB4C21-AD84-4630-84EF-492A9A58F723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FB4C21-AD84-4630-84EF-492A9A58F723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FB4C21-AD84-4630-84EF-492A9A58F723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FB4C21-AD84-4630-84EF-492A9A58F723}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22FB4C21-AD84-4630-84EF-492A9A58F723} = {B4F76208-1E9B-408C-9664-435B6D046D9A}
+	EndGlobalSection
+EndGlobal
