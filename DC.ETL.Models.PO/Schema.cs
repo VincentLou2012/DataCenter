@@ -25,9 +25,15 @@ namespace DC.ETL.Models.PO
         public string Keywords { get; set; } 
         //备注
         public string Comments { get; set; }
+        //所属数据源
+        public virtual DataSource Source { get; set; }
         //操作记录
         public virtual ICollection<SchemaRcd> Records { get; set; }
-
-      
+        //全表结构
+        public virtual ICollection<WholeStructure> AStructure { get; set; }
+        //抽取表结构
+        public virtual ICollection<ExtractStructure> EStructure { get; set; }
+        //对应抽取单元集合，原则上一个结构对应一个抽取单元
+        public virtual ICollection<ExtractUnit> Units { get; set; }
     }
 }

@@ -8,6 +8,7 @@ namespace DC.ETL.Models.PO
 {
     public class DataSourceRcd : OPRecord
     {
+        public System.Guid SourceSN { get; set; }
         public virtual DataSource _theDS { get; set; }
     }
 }
