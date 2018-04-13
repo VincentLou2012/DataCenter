@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DC.ETL.Models.PO;
 
-namespace DC.ETL.Domain.BaseModel
+namespace DC.ETL.Domain.Model
 {
-    public partial class DataSource : IAggregateRoot
+    public partial class DataSource : AggregateRoot
     {
+
     }
 }

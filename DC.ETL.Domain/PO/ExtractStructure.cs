@@ -5,14 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DC.ETL.Models.PO
+namespace DC.ETL.Domain.Model
 {
-    public class WholeStructure
+    /// <summary>
+    /// 数据结构
+    /// </summary>
+    public partial class ExtractStructure
     {
         [Key]
         public int StructureID { get; set; }
-        //全结构序列
-        public System.Guid SN { get; set; } 
+        //序列标识
+        public System.Guid SN { get; set; }
         //数据模式id
         public int SchemaID { get; set; }
         //字段名称
@@ -33,5 +36,6 @@ namespace DC.ETL.Models.PO
         public virtual ICollection<StructureRcd> Records { get; set; }
         //所属模式
         public virtual Schema _Schema { get; set; }
+
     }
 }

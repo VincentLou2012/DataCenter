@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DC.ETL.Domain.BaseModel
+namespace DC.ETL.Domain
 {
     /// <summary>
     /// 领域实体接口

@@ -5,17 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DC.ETL.Models.PO
+namespace DC.ETL.Domain.Model
 {
     /// <summary>
     /// 数据源
     /// </summary>
-    public class DataSource
+    public partial class DataSource
     {
         [Key]
         public int DSID { get; set; }
-        //数据源序列
-        public System.Guid SN { get; set; }
         //数据源名称
         public string DSName { get; set; }
         //数据源类型

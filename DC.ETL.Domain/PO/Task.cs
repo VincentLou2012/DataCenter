@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DC.ETL.Models.PO
+namespace DC.ETL.Domain.Model
 {
     /// <summary>
     /// 任务
     /// </summary>
-    public class Task
+    public partial class Task
     {
         [Key]
         public int TaskID { get; set; }

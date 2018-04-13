@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DC.ETL.Models.PO
+namespace DC.ETL.Domain.Model
 {
     /// <summary>
     /// 数据模式
     /// </summary>
-    public class Schema
+    public partial class Schema
     {
         [Key]
         public int SchemaID { get; set; }

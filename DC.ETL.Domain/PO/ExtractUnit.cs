@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DC.ETL.Models.PO
+namespace DC.ETL.Domain.Model
 {
     /// <summary>
     /// 抽取单元
     /// </summary>
-    public class ExtractUnit
+    public partial class ExtractUnit
     {
         //主键ID
         [Key]

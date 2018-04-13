@@ -41,21 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataSource.cs" />
-    <Compile Include="DataSourceRcd.cs" />
-    <Compile Include="ExtractStructure.cs" />
-    <Compile Include="ExtractUnit.cs" />
-    <Compile Include="OPRecord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Schema.cs" />
-    <Compile Include="SchemaRcd.cs" />
-    <Compile Include="Strategy.cs" />
-    <Compile Include="StructureRcd.cs" />
-    <Compile Include="Task.cs" />
-    <Compile Include="TaskRcd.cs" />
-    <Compile Include="UnitRcd.cs" />
-    <Compile Include="WholeStructure.cs" />
-    <Compile Include="WholeStructureRcd.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
