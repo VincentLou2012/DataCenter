@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DC.ETL.Models.PO;
 
 namespace DC.ETL.Domain.BaseModel
 {
-    public partial class DataSource : IAggregateRoot
+    /// <summary>
+    /// 领域实体接口
+    /// </summary>
+    public interface IEntity
     {
+        //实体唯一标识序列
+        System.Guid SN { get; }
     }
 }
