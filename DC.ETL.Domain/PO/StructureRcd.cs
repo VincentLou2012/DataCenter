@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DC.ETL.Domain.Model
 {
-    public partial class DataSource : AggregateRoot
+    public class StructureRcd : OPRecord
     {
-
+        public int StructureID { get; set; }
+        public virtual ExtractStructure _theStructure { get; set; }
     }
 }

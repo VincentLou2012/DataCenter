@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace DC.ETL.Domain.Model
 {
-    public partial class DataSource : AggregateRoot
+    public class WholeStructureRcd : OPRecord
     {
+        public System.Guid StructureSN { get; set; }
 
+        public virtual WholeStructure _theStructure { get; set; }
     }
 }

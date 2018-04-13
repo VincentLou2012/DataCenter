@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DC.ETL.Domain.Model
 {
-    public partial class DataSource : AggregateRoot
+    public partial class TaskRcd : OPRecord
     {
-
+        public int TaskID { get; set; }
+        public virtual Task _theTask { get; set; }
     }
 }
