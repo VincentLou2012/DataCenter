@@ -15,10 +15,12 @@ namespace DC.ETL.Models.PO
         //主键ID
         [Key]
         public int UnintID { get; set; }
-        //模式序列
-        public System.Guid SchemaSN { get; set; }
-        //任务序列
-        public System.Guid TaskSN { get; set; }
+        //单元序列
+        public System.Guid SN { get; set; }
+        //模式id
+        public int SchemaID { get; set; }
+        //任务id
+        public int TaskID { get; set; }
         //行数
         public Nullable<int> DataRows { get; set; }
         //目标名称

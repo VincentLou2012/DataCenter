@@ -10,9 +10,11 @@ namespace DC.ETL.Models.PO
     public class WholeStructure
     {
         [Key]
-        public System.Guid StructureSN { get; set; } 
-        //数据模式序列标识
-        public Nullable<System.Guid> SchemaSN { get; set; }
+        public int StructureID { get; set; }
+        //全结构序列
+        public System.Guid SN { get; set; } 
+        //数据模式id
+        public int SchemaID { get; set; }
         //字段名称
         public string FieldName { get; set; }
         //字段显示名称

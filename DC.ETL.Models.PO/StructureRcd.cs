@@ -8,7 +8,7 @@ namespace DC.ETL.Models.PO
 {
     public class StructureRcd : OPRecord
     {
-        public System.Guid StructureSN { get; set; }
+        public int StructureID { get; set; }
         public virtual ExtractStructure _theStructure { get; set; }
     }
 }

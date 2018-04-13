@@ -8,7 +8,7 @@ namespace DC.ETL.Models.PO
 {
     public class SchemaRcd : OPRecord
     {
-        public System.Guid SchemaSN { get; set; }
+        public int SchemaID { get; set; }
         public virtual Schema _theSchema { get; set; }
     }
 }

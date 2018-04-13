@@ -8,7 +8,7 @@ namespace DC.ETL.Models.PO
 {
     public class TaskRcd : OPRecord
     {
-        public System.Guid TaskSN { get; set; }
+        public int TaskID { get; set; }
         public virtual Task _theTask { get; set; }
     }
 }

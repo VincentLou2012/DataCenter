@@ -12,11 +12,12 @@ namespace DC.ETL.Models.PO
     /// </summary>
     public class Schema
     {
-        //模式序列
         [Key]
-        public System.Guid SchemaSN{ get; set; }
-        //数据源序列
-        public Nullable<System.Guid> SourceSN { get; set; }
+        public int SchemaID { get; set; }
+        //模式序列
+        public System.Guid SN{ get; set; }
+        //数据源id
+        public int DSID { get; set; }
         //模式名
         public string SchemaName { get; set; }
         //方面,主题标识

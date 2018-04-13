@@ -12,9 +12,10 @@ namespace DC.ETL.Models.PO
     /// </summary>
     public class Task
     {
-        //任务序列
         [Key]
-        public System.Guid TaskSN { get; set; }
+        public int TaskID { get; set; }
+        //任务序列
+        public System.Guid SN { get; set; }
         //任务名称
         public string Name { get; set; }
         //任务描述

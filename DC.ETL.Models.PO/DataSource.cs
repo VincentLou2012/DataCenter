@@ -12,8 +12,10 @@ namespace DC.ETL.Models.PO
     /// </summary>
     public class DataSource
     {
+        [Key]
+        public int DSID { get; set; }
         //数据源序列
-        public System.Guid SourceSN { get; set; }
+        public System.Guid SN { get; set; }
         //数据源名称
         public string DSName { get; set; }
         //数据源类型
